@@ -13,6 +13,9 @@ export default defineComponent({
   name: 'HomeView',
   components: {
     HelloWorld
+  },
+  setup() {
+    const a = 1
   }
 })
 </script>
